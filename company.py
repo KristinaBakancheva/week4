@@ -156,7 +156,6 @@ def task_level_2():
         empl_names.extend([x.get("first_name") for x in empls if x.get("last_name")[-1] in vowel])
     print(f"№12 - {empl_names}")   
 
-
 def task_level_3():
     #13
     departs = [x.get("title") for x in departments if x.get("title") is not None]
